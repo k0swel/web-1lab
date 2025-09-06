@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+h1,h2,p {
+    color: black;
+    font-family: "Inter", sans-serif;
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5 rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: black;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: green;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    min-width: 30rem;
+    max-width: 50rem;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table thead {
+    border: 1px solid black;
+}
+
+table thead th {
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+table tbody {
+    border: 1px solid black;
+}
+
+
+table tbody td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px; 
+}
+
+
+table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Главный контейнер. */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+
+header > nav {
+    padding: 0;
+    margin: 0;
+}
+
+header > nav > ul {
+    padding: 0;
+}
+
+header > nav > ul > li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+
+/* main */
+
+main {
+    text-align: start;
+}
+
+
+#info-company > p {
+    margin: 0 1rem;
+}
+
+
+
+#famous-dishes > table {
+    margin: 0 auto;
+}
+
+
+/* footer */
+
+footer {
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
+
+footer p > a {
+    color: grey;
+    font-weight: bold;
+}
